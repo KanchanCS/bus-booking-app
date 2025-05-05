@@ -86,17 +86,7 @@ src/
 └── main.jsx           # Entry point
 ```
 
-## API Integration
 
-The application integrates with the following API endpoints:
-
-- `/api/bus/search` - Get available buses based on search criteria
-- `/api/bus/seatmap` - Get seat map layout for bus selection
-- `/api/bus/temp-book` - Create a temporary booking
-- `/api/bus/payments` - Process payment
-- `/api/bus/confirm-book` - Confirm booking
-
-## Features Implementation Details
 
 ### Bus Search
 
