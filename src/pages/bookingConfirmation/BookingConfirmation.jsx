@@ -18,7 +18,7 @@ const BookingConfirmation = () => {
   const [showConfetti, setShowConfetti] = useState(true);
   const [bookingReference] = useState(`BUS${Math.floor(Math.random() * 10000).toString().padStart(4, '0')}`);
 
-  // Redirect if passenger details are not provided
+  
   useEffect(() => {
     if (!selectedSeats.length || !passengerDetails.name) {
       navigate("/");
@@ -151,7 +151,6 @@ const BookingConfirmation = () => {
                       </div>
                     </div>
                   </div>
-
                   <div className="mt-4 flex items-center justify-between">
                     <div className="space-y-1">
                       <div className="text-sm text-gray-500 dark:text-gray-400">From</div>

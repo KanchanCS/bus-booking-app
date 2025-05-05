@@ -6,7 +6,7 @@ import { FaFilter, FaSort, FaArrowRight, FaRegClock, FaChair, FaBus } from "reac
 import RootLayout from "../../component/layout/RootLayout";
 import Search from "../search/search";
 
-// Sample bus data for demo purposes (replace with API response)
+
 const sampleBuses = [
   {
     id: "bus1",
@@ -86,7 +86,7 @@ const BusList = () => {
 
   // Apply filters
   const applyFilters = () => {
-    let filtered = [...sampleBuses]; // Replace with buses from context when API integrated
+    let filtered = [...sampleBuses]; 
 
     // Filter by price range
     filtered = filtered.filter(bus =>

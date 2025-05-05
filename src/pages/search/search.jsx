@@ -6,7 +6,7 @@ import { FaSearch } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import { useBooking } from "../../context/BookingContext";
 
-// Sample data for locations (can be replaced with API response)
+
 const locationData = [
   "Delhi", "Mumbai", "Bangalore", "Chennai", "Kolkata",
   "Hyderabad", "Pune", "Jaipur", "Lucknow", "Ahmedabad",

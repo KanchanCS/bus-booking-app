@@ -119,9 +119,7 @@ const PassengerDetails = () => {
     setIsSubmitting(true);
 
     try {
-      // In a real app, this would call the API
-      // const tempBooking = await createTempBooking();
-      // if (tempBooking) {
+    
         setTimeout(() => {
           navigate("/booking-confirmation");
           setIsSubmitting(false);

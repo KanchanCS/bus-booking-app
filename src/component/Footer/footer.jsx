@@ -16,7 +16,7 @@ const Footer = () => {
               <h2 className="text-lg font-semibold">BusBook</h2>
             </div>
             <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'} mb-4`}>
-              Book bus tickets quickly and easily with our intuitive booking platform. Safe, secure, and hassle-free travel planning.
+              Book bus tickets quickly 
             </p>
             <p className={`text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
               © {new Date().getFullYear()} BusBook. All rights reserved.
@@ -66,11 +66,11 @@ const Footer = () => {
             <ul className={`space-y-3 text-sm ${darkMode ? 'text-gray-400' : 'text-gray-500'}`}>
               <li className="flex items-start">
                 <FaMapMarkerAlt className="mt-1 mr-2" />
-                <span>123 Bus Station Road, Transport City, 110001</span>
+                <span>Bus Station Road, Transport City</span>
               </li>
               <li className="flex items-center">
                 <FaPhone className="mr-2" />
-                <span>+91 98765 43210</span>
+                <span>+91 2225555410</span>
               </li>
               <li className="flex items-center">
                 <FaEnvelope className="mr-2" />

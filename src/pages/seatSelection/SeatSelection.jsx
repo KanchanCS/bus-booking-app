@@ -219,7 +219,7 @@ const SeatSelection = () => {
 
   return (
     <RootLayout>
-      <div className="py-6">
+      <div className="py-6 ">
         <div className="flex items-center mb-6">
           <button
             onClick={() => navigate("/buses")}
