@@ -119,11 +119,6 @@ src/
 - Detailed booking information
 - Option to download ticket or return to home
 
-## Assumptions
-
-- The application uses mock data for demonstration purposes
-- In a real-world scenario, the API calls would be implemented to fetch real data
-- User authentication is not implemented as it's beyond the scope of this task
 
 ## Future Improvements
 
@@ -133,6 +128,4 @@ src/
 - Implement booking history for users
 - Add multilingual support
 
-## License
 
-MIT
