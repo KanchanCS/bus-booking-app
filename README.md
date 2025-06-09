@@ -1,7 +1,7 @@
 # BusBook - Bus Booking Application
 
 A responsive, interactive frontend application for booking bus tickets. This application implements a complete bus booking flow from search to confirmation.
-
+       
 ## Features
 
 - Responsive design that works on all devices
